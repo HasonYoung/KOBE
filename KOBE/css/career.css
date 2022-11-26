@@ -1,0 +1,106 @@
+
+        body{
+            background-color:rgb(255, 213, 0);
+            
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            color:rgba(137, 43, 226, 0.805);
+            font-size: 18px;
+            /* 首行缩进 */
+            text-indent: 2em;
+            /* 字体风格 */
+            font-family: monospace;
+            /* 行高 */
+            line-height: 2em;
+            font-weight: 600;
+            /* font：italic 700 24px/2 微软雅黑 */
+            /* font:style weight size/height style */
+        }
+        .wrapper{
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+      
+        .header{
+            width:800px;
+            height: 50px;
+            background-color: rgb(92, 0, 128);
+            display: inline-block;
+        }
+        
+        .wrapper .header div{
+          width: 200px;
+          float: left;
+        }
+
+      .header div a{
+            text-decoration: none;
+            width: 200px;
+            color: yellow;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            float: left;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        .header div a:hover{
+            color:rgb(92, 0, 128);
+            background-color: yellow;
+        }
+        .last{
+            height:150px ;
+            width: 800px;
+            text-align: left;
+            background-color: rgb(92, 0, 128);
+            color: yellow;
+            padding: 1em;
+            box-sizing: border-box;
+        } 
+    
+        .last div a{
+            text-decoration: none;
+            float: left;
+            color:yellow;
+            width: 190px;
+            height: 50px;
+            line-height:50px;
+            text-align: center;
+        }
+    
+        .last div a:hover{
+            color:white;
+        }
+        
+        .center{
+            width: 800px;
+           background-color: #fff;
+            padding: 2em;
+            border: 1px solid purple;
+            box-sizing: border-box;
+        }
+       
+                
+        video{
+           width: 670px;
+            
+        }
+        img{
+            
+            width: 400px;
+        }
+
+        .picture{
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
